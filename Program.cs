@@ -10,6 +10,11 @@ namespace githubfeladat0
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Addja meg az a értékét:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Adja meg a b értékét");
+            int b = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
